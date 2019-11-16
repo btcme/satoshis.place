@@ -35,7 +35,7 @@ const Emphasize = ({ children }) =>
 
 const Link = ({ children, ...props }) =>
   <a {...props}><Span color='primary'><u>{children}</u></Span></a>
-  
+
 @inject('store')
 @observer
 export default class Modal extends Component {
@@ -140,7 +140,8 @@ export default class Modal extends Component {
               <Logo src='/static/logo.png' />
             </Flex>
             <Flex mt={'-10px'} justify='center'>
-              by&nbsp;<Link target='_blank' href='https://twitter.com/LightningK0ala'>Lightning K0ala</Link>
+              origin by&nbsp;<Link target='_blank' href='https://twitter.com/LightningK0ala'>Lightning K0ala</Link>
+              powerd by&nbsp;<Link target='_blank' href='https://btcme.com'>btcme.com</Link>
             </Flex>
             <Text mt={4} mb={3}>
               Welcome!
@@ -157,7 +158,7 @@ export default class Modal extends Component {
               <li>Pixels can be painted over indefinitely.</li>
             </ul>
             <Text mt={3}>
-              Satoshi's Place is a great way to experience the power of micro-transactions through the Bitcoin Lightning Network. 
+              Satoshi's Place is a great way to experience the power of micro-transactions through the Bitcoin Lightning Network.
             </Text>
             <Text my={3}>
               If you're a developer interested in building scripts, bots and services for satoshis.place, there is documentation for the API available <Link target="_blank" href="https://github.com/LightningK0ala/satoshis.place/blob/master/README.md">here</Link>.

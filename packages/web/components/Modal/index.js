@@ -140,8 +140,8 @@ export default class Modal extends Component {
               <Logo src='/static/logo.png' />
             </Flex>
             <Flex mt={'-10px'} justify='center'>
-              origin by&nbsp;<Link target='_blank' href='https://twitter.com/LightningK0ala'>Lightning K0ala</Link>
-              &nbsp&nbsp powerd by&nbsp;<Link target='_blank' href='https://btcme.com'>btcme.com</Link>
+              origin by&nbsp;<Link target='_blank' href='https://twitter.com/LightningK0ala'>Lightning K0ala</Link>  |
+              powered by&nbsp;<Link target='_blank' href='https://btcme.com'>btcme.com</Link>
             </Flex>
             <Text mt={4} mb={3}>
               Welcome!

@@ -1,5 +1,5 @@
 # Ubuntu + Node.js
-FROM node:8.11.2
+FROM node:8.11.1
 
 # Create app directory and set as working directory
 RUN mkdir -p /app

@@ -70,7 +70,7 @@ export default class Modal extends Component {
           <Flex flexDirection='column'>
             <h1 style={{ marginTop: 0 }}>Payment</h1>
             <p>
-              Your painting will cost: <b>{priceInSatoshis} {isTestnet ? 'tSatoshis' : 'satoshis'}{priceInDollars ? ` (≈ ${priceInDollars} ${isTestnet ? 'tUSD' : 'USD'})` : null}</b>
+              Your painting will cost: <b>{priceInSatoshis} {isTestnet ? 'bitcoin testnet Satoshis' : 'satoshis'}{priceInDollars ? ` (≈ ${priceInDollars} ${isTestnet ? 'tUSD' : 'USD'})` : null}</b>
             </p>
             <p>
               To proceed, make a Bitcoin Lightning Network payment (<Link target='_blank' href='https://medium.com/@nickcryptoltc/guide-to-using-the-lightning-network-on-satoshis-place-ae4c1543aac8'>how?</Link>) with the following payment request:

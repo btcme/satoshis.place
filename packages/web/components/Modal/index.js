@@ -161,7 +161,10 @@ export default class Modal extends Component {
               Satoshi's Place is a great way to experience the power of micro-transactions through the Bitcoin Lightning Network.
             </Text>
             <Text my={3}>
-              If you're a developer interested in building scripts, bots and services for satoshis.place, there is documentation for the API available <Link target="_blank" href="https://github.com/LightningK0ala/satoshis.place/blob/master/README.md">here</Link>.
+              If you're a developer interested in building scripts, bots and services for satoshis.place, there is documentation for the API available <Link target="_blank" href="https://github.com/btcme/satoshis.place/blob/master/API.md">here</Link>.
+            </Text>
+            <Text my={3}>
+            API URL:https://satoshiapi.btcme.com/
             </Text>
             <Flex py={3} justify='center'>
               <UnstyledLink target='_blank' href='https://t.me/satoshisplace'>

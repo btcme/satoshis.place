@@ -123,7 +123,7 @@ export default class Header extends Component {
                 mr={2}
                 style={{ userSelect: 'none' }}
               >
-                Price: {priceInSatoshis} {isTestnet ? 'tSatoshis' : 'satoshis'}{priceInDollars ? ` (≈ ${priceInDollars} ${isTestnet ? 'tUSD' : 'USD'})` : null}
+                Price: {priceInSatoshis} {isTestnet ? 'bitcoin testnet Satoshis' : 'satoshis'}{priceInDollars ? ` (≈ ${priceInDollars} ${isTestnet ? 'tUSD' : 'USD'})` : null}
               </Box>
             </Flex>
           </Flex>

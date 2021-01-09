@@ -164,7 +164,10 @@ export default class Modal extends Component {
               If you're a developer interested in building scripts, bots and services for satoshis.place, there is documentation for the API available <Link target="_blank" href="https://github.com/btcme/satoshis.place/blob/master/API.md">here</Link>.
             </Text>
             <Text my={3}>
-            API URL:https://satoshiapi.btcme.com/
+            API:https://satoshiapi.btcme.com/
+            </Text>
+            <Text my={3}>
+            <Link target='_blank' href='https://github.com/btcme/satoshisbuda'>Place images in Satoshi Place via API</Link>
             </Text>
             <Flex py={3} justify='center'>
               <UnstyledLink target='_blank' href='https://t.me/satoshisplace'>
